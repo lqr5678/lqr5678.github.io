@@ -208,6 +208,15 @@
 | :------- | :--------------------- | :-------------------- |
 | change   | 绑定值变化时触发的事件 | 选中的 Radio label 值 |
 
+### Option Attributes
+
+| 参数    | 说明                                      | 类型                 | 默认值 |
+| ------- | ----------------------------------------- | -------------------- | ------ |
+| value   | 选项的值                                  | string/number/object | —      |
+| label   | 选项的标签，若不设置则默认与 `value` 相同 | string/number        | —      |
+| key     | 编码值                                    | string/number        | —      |
+| is-flag | 是否默认显示                              | Boolean              | false  |
+
 ## e-date日期
 
 <vuep template="#date"></vuep>
@@ -386,14 +395,6 @@
 | --------- | ---------------------------------- | ------------ |
 | selchange | 接受选中的值(选中值发生变化时触发) | 目前的选中值 |
 
-### Option Attributes
-
-| 参数    | 说明                                      | 类型                 | 默认值 |
-| ------- | ----------------------------------------- | -------------------- | ------ |
-| value   | 选项的值                                  | string/number/object | —      |
-| label   | 选项的标签，若不设置则默认与 `value` 相同 | string/number        | —      |
-| key     | 编码值                                    | string/number        | —      |
-| is-flag | 是否默认显示                              | Boolean              | false  |
 
 ## e-upload上传
 
