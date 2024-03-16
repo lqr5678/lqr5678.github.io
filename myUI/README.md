@@ -1,6 +1,6 @@
 ## 介绍
 
-基于 vue2 自己开发的组件库。实时编辑并预览。源码：https://github.com/lqr5678/EUI
+基于 vue2 自己开发的组件库。实时编辑并预览。源码：https://github.com/lqr5678/my-vueUI/tree/lqr/packages
 
 ## tabs
 
@@ -11,8 +11,8 @@
   <div>
     {{tab}}
     <my-tabs
-      :tabs="tabs"
       v-model="tab"
+      :tabs="tabs"
       @change="change"
     >
     </my-tabs>
@@ -61,7 +61,7 @@ module.exports = {
 <template>
   <div>
     {{tag}}
-    <my-tag v-model="tag" @add="add" @delete="deleteFn"></my-tag>
+    <my-tag v-model="tag" @add="addFn" @delete="deleteFn"></my-tag>
   </div>
 </template>
 <script>
@@ -72,7 +72,7 @@ module.exports = {
     }
   },
   methods:{
-    add(item){
+    addFn(item){
       console.log(item)
     },
     deleteFn(item){
