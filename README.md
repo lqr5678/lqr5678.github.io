@@ -21,7 +21,7 @@ https://lqr5678.github.io/EUI
 
 使用vue3+bootstrap.css和animate.css做的个人简历。练习vue3时做的
 
-https://lqr5678.github.io/resume
+[https://lqr5678.github.io/resume](https://lqr5678.github.io/#/)https://lqr5678.github.io/#/
 
 
 
